@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>img-responsive:响应式img</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<style>
+			img {
+				width: 100px;
+				height: 100px;
+			}
+			
+			img {
+				margin-top: 20px;
+			}
+		</style>
+
+	</head>
+
+	<body class="container" style="margin-top: 20px;">
+		
+		<div style="background: #ff0000;" class="pull-right">div1</div>
+		<div style="background: #0000ff;" class="pull-right">div2</div>
+		
+		<span class="caret"></span>
+		
+		<!--aria-label="close"-->
+		<button type="button" class="close" aria-label="close">
+			<label class="control-label">关闭</label>
+			<span class="glyphicon glyphicon-remove form-control-static"></span>
+		</button>
+
+		<div>
+
+			<img class="img-responsive" src="img/IMG_20171202_145140.jpg" alt="小小王" />
+
+			<img class="img-responsive img-rounded" src="img/IMG_20171202_145140.jpg" alt="小小王" />
+
+			<img class="img-circle" src="img/IMG_20171202_145140.jpg" alt="小小王" />
+
+			<img class="img-thumbnail" src="img/IMG_20171202_145140.jpg" alt="小小王" />
+
+		</div>
+	</body>
+
+</html>
